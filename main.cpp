@@ -4,6 +4,6 @@ using namespace std;
 
 int main() {
 
-    cout<<"Success!"<<endl;
+    cout<<"Success! Jenkins compiled and ran the program"<<endl;
 
 }
