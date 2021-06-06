@@ -2,8 +2,18 @@
 
 using namespace std;
 
-int main() {
+int main(int argc, char** argv) {
+    string ams="ams";
 
-    cout<<"Success! Jenkins compiled and ran the program"<<endl;
+    if (argv[1] == ams) {
+        cout<<"Pass!"<<endl;
+        return 0;
+    }
+    else {
+        cout<<"Fail!"<<endl;
+        return 1;
+    }
+
+
 
 }
